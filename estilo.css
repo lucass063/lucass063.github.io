@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@media (min-width: 600px) {
+    .box {
+        flex: 1 1 50%;
+    }
+    .item {
+        flex: 1 1 50%;
+    }
+}
+@media (min-width: 900px) {
+    .box {
+        flex: 1 1 33.33%;
+    }
+}
+@media (max-width: 344px) {
+    .box {
+        flex: 1 1 100%;
+        padding: 0.25em;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cor_de_fundo{
+    background-color: #00cb6e;
+    }
+    
+.box_pg1 {
+    display: flex;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: justify;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    float: left;
+    flex: 1 1 100%;
+    padding: 0.5em;
+}
+.titulo1 {
+    color: white;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagem {
+    display: flex;
+    float: right;  
+} 
+/* Define o box-sizing para incluir padding e border no cálculo do elemento */ * { box-sizing: border-box; } /* Define a fonte padrão da página */ /* Estiliza o contêiner do carrossel */ .carousel { display: flex; justify-content: center; /* Centraliza o carrossel horizontalmente */ align-items: center; /* Centraliza o carrossel verticalmente */ max-width: 50%; /* Define a largura máxima do carrossel */ margin: auto; /* Centraliza o carrossel na página */ overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites do carrossel */ } /* Estiliza o contêiner das slides */ .slides { display: flex; /* Define um layout flexível para as slides */ transition: transform 0.5s ease-in-out; /* Adiciona uma transição suave para a transformação */ } /* Estiliza cada slide */ .slide { min-width: 20%; /* Define a largura mínima de cada slide */ margin: 15px; /* Adiciona uma margem entre as slides */  /* Adiciona uma sombra ao redor das slides */ } /* Estiliza as imagens dentro das slides */ .carousel img { width: 100%; /* Define a largura das imagens para preencher todo o contêiner da slide */ height: auto; /* Mantém a proporção das imagens */ margin: 0 auto; /* Centraliza as imagens dentro da slide */ } /* Estiliza os botões de navegação (anterior e próximo) */ .prev, .next { cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */ position: absolute; /* Posiciona os botões de forma absoluta */ top: 50%; /* Posiciona verticalmente no meio do carrossel */ width: auto; /* Define a largura automática */ padding: 16px; /* Adiciona um padding */ margin-top: 22px; /* Ajusta a posição dos botões verticalmente */ color: rgb(46, 39, 39); background-color: aquamarine; /* Define a cor do texto dos botões */ font-weight: bold; /* Define o texto dos botões como negrito */ font-size: 18px; /* Define o tamanho da fonte dos botões */ transition: 0.6s ease; /* Adiciona uma transição suave ao passar o mouse */ user-select: none; /* Impede a seleção do texto dos botões */ } /* Estiliza o botão de navegação próximo */ .next { right: 0; /* Posiciona o botão próximo à direita */ } 
+.prev { 
+    left: 0;
+}
+/* Adiciona um efeito ao passar o mouse sobre os botões */ .prev:hover, .next:hover { background-color: rgba(0,0,0,0.8); /* Altera a cor de fundo ao passar o mouse */ }
+.container_1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.box_g {
+    width: 50%;
+    padding: 1em;
+    background-color: lightgray;
+    text-align: justify;       
+}
+.fundo_g {
+    background-color: rgb(71, 97, 1);
+}
+.title1{
+    color: black;
+}
+.bg_g {
+    background-image: url(images/flowers/g/6540098.jpg);
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    
+}
+.footer > .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cosmetico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .per {
+        width: 160px;
+    }
+    .oleo1 {
+        width: 200px;
+    }
+    .oleo2 {
+        width: 164px;
+    }
+}
+.icones {
+    width: 25px;
+}
+.bg_li {
+    background-image: url(images/flowers/l/lbg.jpg);
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    
+}
+.fundo_l {
+    background-color: rgb(129, 6, 119);
+}
+.limonium {
+    width: 180px;
+}
+.bg_limo {
+    background-image: url(images/flowers/limon/bee-4560394_1280.jpg);
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    
+}
+.fundo_limo {
+    background-color: rgb(72, 15, 100);
+}
+.bg_r {
+    background-image: url(images/flowers/r/top-view-valentine-s-day-conncept-with-copy-space.jpg);
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+}
+.fundo_r {
+    background-color: rgb(180, 45, 120);
+}
+.crisantemo {
+    width: 200px;
+}
+.bg_c {
+    background-image: url(images/flowers/c/ai-generated-8608701_1280.png);
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    
+}
+.fundo_c {
+    background-color: rgb(29, 107, 19);
+}
+.dalia {
+    width: 150px;
+}
+.fundo_d {
+    background-color: rgb(76, 4, 78);
+}
+.bg_d {
+    background-image: url(images/flowers/d/pexels-soulfiredesigns-599679.jpg);
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    
+}
+.img_naty {
+    float: left;
+    width: 250px;
+}
+.container_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.box_nat {
+    width: 50%;
+    padding: 1em;
+    background-color: gray;
+    text-align: justify;   
+}
+.text_naty {
+    width: 350px;
+    float: right;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+.titulo_naty {
+    float: right;
+    color: white;
+}
+.contatos {
+    color: white;
+}
+body {
+    background-color: black;
+}
+.cor_t {
+    color: white;
+}
